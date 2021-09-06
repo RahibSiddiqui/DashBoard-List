@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(114, 110, 110);
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Side Menu */
+
+  a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h1,
+h2{
+color:white;
+}
+
+
+
+  
+.side-menu{
+    position: fixed;
+    background-color: #212529;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ .side-menu .brand-name{
+     padding-top: 5px;
+      height: 10vh;
+display: flex;
+ text-align: center;
+justify-content: center;
+} 
+
+
+.side-menu li{
+    font: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+} 
+
+.side-menu li:hover{
+
+    background-color: white;
+    color: #212529;
+
+}
+
+
+/* Button */
+
+.des{
+    padding: 3px;
+    text-align: center;
+   
+    padding-top: 10px;
+          border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+  }
+  button:hover{
+    background-color:#5b5e61;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .ColorName{
+      color: #ddd;
+  }
+  .mainTable{
+      padding-left: 450px;
+     
+  }
+
+  .table2{
+      margin-left: 25px;
+  }
+
+  .heading{
+      color: #ddd;
+  }
+  .div1{
+      /* display: flex; */
+      margin-left: 550px;
+padding-top: 90px;
+    }
+  
+  .div2{
+    /* display: flex; */
+    margin-left: 150px;
+    padding-top: 90px;
+}
+.maindiv{
+    display: flex;
+      
+}
